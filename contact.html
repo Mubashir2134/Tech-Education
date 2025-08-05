@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Univeristy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <img src="Images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <img class="menu-btn" src="Images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!------------Home------------>
+    <section class="about-home">
+        <h2>Contact Us</h2>
+
+    </section>
+
+    <section class="contact">
+        <div class="getin">
+            <h2>Get In Touch</h2>
+            <p>Looking For Help? fill the form and start a new adventure.</p>
+            <div class="getin-details">
+                <h3>Headquaters</h3>
+                <div>
+                    <i class="far fa-home get"></i>
+                    <p>744 New York Ave, Brooklyn, Kings, New York 10224.</p>
+                </div>
+                <h3>Phone</h3>
+                <div>
+                    <i class="fas fa-phone-alt get"></i>
+                    <p> (+492) 273 512 986 <br> (+420) 756 324 872</p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <i class="fal fa-envelope-open-text get"></i>
+                    <p>techedu@support.com <br> help@edu.com</p>
+                </div>
+                <h3>Follow Us</h3>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-behance"></i>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <h4>Let's Connect</h4>
+            <p>Integer at lorem egat diam facilisis lacinia acidn massa.</p>
+            <div class="form-row">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="form-col">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="8" placeholder="How We Can I Help?"></textarea>
+            </div>
+            <div class="form-col">
+                <button>Send Message</button>
+            </div>
+        </div>
+
+    </section>
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4821890.1080563525!2d-6.802186464198542!3d53.835063803129096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c786156c3b5d%3A0xb21928d390bbc0ee!2sThe%20University%20of%20Edinburgh!5e0!3m2!1sen!2s!4v1723167889751!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Team of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We send only promo others.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Adreess">
+                <a href="#" class="yellow">Subscribe</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright 2024 all rights reserved | This template is made by Tech2etc</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('.menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>
